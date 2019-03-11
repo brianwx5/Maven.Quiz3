@@ -5,7 +5,9 @@ package rocks.zipcode.io.quiz3.fundamentals;
  */
 public class VowelUtils {
     public static Boolean hasVowels(String word) {
-        return null;
+        if (word.matches("[aeiou]+")) {
+            return true;
+        }  return false;
     }
 
     public static Integer getIndexOfFirstVowel(String word) {
@@ -14,10 +16,10 @@ public class VowelUtils {
 
 
     public static Boolean startsWithVowel(String word) {
-        return null;
+        return true;
     }
 
     public static Boolean isVowel(Character character) {
-        return null;
+        return true;
     }
 }
